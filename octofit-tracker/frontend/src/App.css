@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #343a40; /* Dark gray text */
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff, #6610f2); /* Gradient from blue to purple */
+  margin-left: 0px; /* Adjust margin-left to align with the logo */
+  justify-content: flex-end; /* Align navigation bar to the right */
+}
+
+.navbar-brand {
+  margin-right: auto; /* Keep the brand on the left */
+  color: #ffffff !important; /* White text for brand */
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ffffff !important; /* White text for links */
+}
+
+.nav-link:hover {
+  color: #ffc107 !important; /* Yellow on hover */
+}
+
+.card-header {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: #ffffff; /* White text */
+}
+
+.table {
+  background-color: #ffffff; /* White table background */
+  border: 1px solid #dee2e6; /* Light gray border */
+}
+
+.table th {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: #ffffff; /* White text */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Light gray for striped rows */
+}
+
+.btn {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: #ffffff; /* White text */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+h1, h2 {
+  color: #007bff; /* Bootstrap primary blue */
+}
+
+a {
+  color: #007bff; /* Bootstrap primary blue */
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
